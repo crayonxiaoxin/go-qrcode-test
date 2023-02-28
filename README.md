@@ -34,6 +34,11 @@ go run . -port=8889
 
 > nohup 执行
 ```
+nohup ./go-qrcode &
+```
+
+（可选）更改端口
+```
 nohup ./go-qrcode -port 8087 &
 ```
 
