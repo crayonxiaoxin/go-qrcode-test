@@ -30,9 +30,9 @@ go run . -port=8889
 
 ### 部署
 
-> 创建目录并上载可执行文件，假设放在 `/var/www/go-qrcode`
+##### 创建目录并上载可执行文件，假设放在 `/var/www/go-qrcode`
 
-> nohup 执行
+##### nohup 执行
 ```
 nohup ./go-qrcode &
 ```
@@ -42,7 +42,7 @@ nohup ./go-qrcode &
 nohup ./go-qrcode -port 8087 &
 ```
 
-> Apache 反代
+##### Apache 反代
 
 在 Apache 的配置文件中启用 mod_proxy 模块
 ```
