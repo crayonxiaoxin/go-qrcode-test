@@ -67,7 +67,7 @@ LoadModule proxy_http_module modules/mod_proxy_http.so
     ProxyPass / http://127.0.0.1:8085
     ProxyPassReverse / http://127.0.0.1:8085
 
-    <Directory /var/www/ego-hera>
+    <Directory /var/www/go-qrcode>
         Options Indexes FollowSymLinks MultiViews
         AllowOverride FileInfo Options
         Order allow,deny
